@@ -1,14 +1,3 @@
-/* diophantine_simple.c
-   Version très simple et pédagogique du TP :
-   Résout ax + by = c (entiers)
-   - Calcul du PGCD (Euclide)
-   - Algorithme d'Euclide étendu (trouve x0,y0 tels que a*x0 + b*y0 = d)
-   - Vérification si c est divisible par d
-   - Calcul d'une solution particulière puis forme générale
-   Compilation : gcc -o diophantine_simple diophantine_simple.c
-   Exécution : ./diophantine_simple
-*/
-
 #include <stdio.h>
 #include <stdlib.h>
 
